@@ -1,10 +1,11 @@
 App for deliver.me clients. It gives users a new way to work with company. 
 
 Allows users to:
-• create orders;
-• monitor orders;
-• have a chat with couriers.
 
+ - create orders;
+ - monitor orders;
+ - have a chat with couriers.
+ 
 > ####Simple human-oriented design and convenient chat
 
 ![](https://github.com/megawina/deliver.me/blob/master/Screenshots%20deliverme_1.0/scr1.png) 
@@ -18,3 +19,13 @@ Allows users to:
 > ####Easy menu for couriers to monitor new orders, get it and make report about it`s delivery
 
 ![](https://github.com/megawina/deliver.me/blob/master/Screenshots%20deliverme_1.0/scr5.png)
+
+
+####**Used technologies**
+
+ - Parse SDK
+ - Layer + Atlas SDK`s
+ - Map Kit
+ - Skanning of Google Maps requests
+ - 
+
