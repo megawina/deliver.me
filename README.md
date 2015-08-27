@@ -27,5 +27,3 @@ Allows users to:
  - Layer + Atlas SDK`s
  - Map Kit
  - Skanning of Google Maps requests
- - 
-
