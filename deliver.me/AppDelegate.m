@@ -18,9 +18,11 @@
 #import <Atlas/Atlas.h>
 #import <SVProgressHUD/SVProgressHUD.h>
 
-static NSString* parseAppID = @"zQJzWyKs1XGJ7CHcGmWP1sxYZkYpjFzj5eClBVES";
-static NSString* parseClKey = @"1IKHTcIFiGKsbLxFxpOMmM1f47274cEjI11zsZ0u";
-static NSString* layerAppID = @"layer:///apps/staging/13cfaf18-3f57-11e5-8565-d6cf66002d2f";
+// add passw
+
+static NSString* parseAppID = @"gh7udjmfh4zQJzWyKs1XGJ7CHcGmWP1sxYZkYpjFzj5eClBVES";
+static NSString* parseClKey = @"1IKHTcIFiGKsbLxFxpOMmM1f47274cEjI11zsgh7udjmfh4Z0u";
+static NSString* layerAppID = @"layer:///apps/staging/13cgh7udjmfh4faf18-3f57-11e5-8565-d6cf66002d2f";
 
 @interface AppDelegate ()
 
