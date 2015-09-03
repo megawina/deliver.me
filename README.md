@@ -9,6 +9,8 @@
  - Map Kit
  - Skanning of Google Maps requests
 
+---
+
 Allows users to:
 
  - create orders;
