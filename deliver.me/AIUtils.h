@@ -17,19 +17,15 @@
 #pragma mark - ENUMS
 
 typedef enum {
-    
     AIUserTypeClient,
     AIUserTypeCourier
-    
 } AIUserType ;
 
 
 typedef enum {
-    
     AIOrdersToDisplayClientHistory,
     AIOrdersToDisplayCourierHistory,
     AIOrdersToDisplayCourierCurrent
-    
 } AIOrdersToDisplay;
 
 #pragma mark - METHODS

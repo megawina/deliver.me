@@ -22,7 +22,7 @@
 
 static NSString* parseAppID = @"gh7udjmfh4zQJzWyKs1XGJ7CHcGmWP1sxYZkYpjFzj5eClBVES";
 static NSString* parseClKey = @"1IKHTcIFiGKsbLxFxpOMmM1f47274cEjI11zsgh7udjmfh4Z0u";
-static NSString* layerAppID = @"layer:///apps/staging/13cgh7udjmfh4faf18-3f57-11e5-8565-d6cf66002d2f";
+static NSString* layerAppID = @"layer:///apps/staging/13cfaf18-3f57-11e5-8565-d6cf66002d2f";
 
 @interface AppDelegate ()
 
@@ -46,8 +46,7 @@ static NSString* layerAppID = @"layer:///apps/staging/13cgh7udjmfh4faf18-3f57-11
     [Parse setApplicationId:parseAppID clientKey:parseClKey];
     [PFUser enableRevocableSessionInBackground];
     
-    LYRClient* client = [LYRClient clientWithAppID:[NSURL URLWithString:layerAppID]];
-    
+    LYRClient* client = [LYRClient clientWithAppID:[NSURL URLWithString:layerAppID]];    
     client.autodownloadMIMETypes = [NSSet setWithObjects:
                                     ATLMIMETypeImagePNG,    ATLMIMETypeLocation,
                                     ATLMIMETypeImageJPEG,   ATLMIMETypeImageJPEGPreview,
